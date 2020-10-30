@@ -1,0 +1,92 @@
+.header {
+  width: 90vw;
+  margin: 2rem auto 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.8rem;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header-login p {
+  text-decoration: none;
+  color: hsl(257, 7%, 63%);
+}
+.header-login p:hover {
+  color: black;
+}
+
+.username p {
+  margin-right: 2.3rem;
+}
+
+.header-logo {
+  padding: 2rem;
+  margin-left: 5rem;
+}
+
+.header-login-section {
+  font-size: 1.5rem;
+  font-weight: 500;
+  min-width: 180px;
+  margin-right: 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.header-signup {
+  outline: none;
+  font-size: 1.3rem;
+  font-weight: 700;
+  border: none;
+  color: white;
+  background-color: hsl(180, 66%, 49%);
+  padding: 1rem 1.8rem;
+  border-radius: 5rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+  .header-logo {
+    margin-left: 0rem;
+  }
+
+  .header-logo img {
+    max-width: 80px;
+  }
+
+  .header-login-section {
+    max-width: 100px;
+    margin-right: 1rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header-login-section {
+    margin-right: 0rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header-login-section {
+    min-width: 150px;
+    margin-left: 0rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .header-login-section {
+    min-width: 130px;
+  }
+
+  .header-logo {
+    padding: 2rem 2rem 2rem 0;
+  }
+  .header-signup {
+    padding: 1rem 1.3rem;
+  }
+}

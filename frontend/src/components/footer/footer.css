@@ -1,0 +1,19 @@
+.footer {
+  text-align: center;
+  padding: 2rem;
+  margin-top: 15rem;
+  font-size: 2rem;
+  color: whitesmoke;
+  background-color: darkblue;
+}
+
+.footer a {
+  text-decoration: none;
+  color: coral;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer {
+    font-size: 1.4rem;
+  }
+}

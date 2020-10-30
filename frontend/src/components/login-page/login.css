@@ -1,0 +1,80 @@
+.login-heading {
+  font-size: 3rem;
+  margin-bottom: 2.5rem;
+}
+
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form-wrapper {
+  flex: 0 0 50%;
+  max-width: 550px;
+  margin: 3.5rem auto;
+  font-size: 2rem;
+  z-index: 99;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-email-label,
+.login-password-label {
+  font-size: 1.6rem;
+  color: rgb(88, 85, 85);
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.login-email,
+.login-password {
+  padding: 1.6rem 2rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+  background-color: #f7f7f9;
+  margin-bottom: 1.5rem;
+}
+
+.login-submit-btn {
+  margin-top: 1rem;
+  user-select: none;
+  cursor: pointer;
+  width: 15%;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  color: white;
+  background-color: black;
+}
+.login-submit-btn:hover {
+  background-color: #2acfcf;
+  color: white;
+}
+
+.login-new-customer {
+  margin-top: 1.2rem;
+  font-size: 1.4rem;
+}
+.login-new-customer a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 950px) {
+  .login-submit-btn {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .login-submit-btn {
+    width: 35%;
+  }
+}

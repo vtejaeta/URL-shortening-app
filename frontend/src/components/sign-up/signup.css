@@ -1,0 +1,47 @@
+.signup-heading {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.signup-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.signup-form-wrapper {
+  flex: 0 0 50%;
+  max-width: 550px;
+  margin: 3.5rem auto;
+  font-size: 2rem;
+  z-index: 99;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.signup-name-label,
+.signup-email-label,
+.signup-password-label,
+.signup-confirm-password-label {
+  font-size: 1.6rem;
+  color: rgb(88, 85, 85);
+  font-weight: 400;
+  margin-bottom: 1rem;
+  margin-top: 1.3rem;
+}
+
+.signup-email,
+.signup-password,
+.signup-confirm-password,
+.signup-name {
+  padding: 1.6rem 2rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+  background-color: #f7f7f9;
+  margin-bottom: 1.5rem;
+}
