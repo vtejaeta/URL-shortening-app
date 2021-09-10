@@ -16,4 +16,4 @@ URL shortening app made with React, Redux, Express, MongoDb. It's sole purpose i
 ![shortlyapp12 herokuapp com_](https://user-images.githubusercontent.com/65386350/97795716-837d4e00-1c2f-11eb-86b0-0e7493f2bcad.png)
 
 #### Live url👇
-http://shortlyapp12.herokuapp.com/
+https://shortly-url-react.herokuapp.com/
